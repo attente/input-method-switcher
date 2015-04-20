@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="com.ubuntu.input-method-switcher" path="/com/ubuntu/input-method-switcher/">
+    <key name="framework" type="s">
+      <summary>Input method framework</summary>
+      <description>Name of the input method framework that the switcher should activate. To get the name of the currently active framework, use the D-Bus interface instead.</description>
+      <default>""</default>
+    </key>
+  </schema>
+</schemalist>

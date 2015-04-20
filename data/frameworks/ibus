@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ "x$1" = "xstart" ] ; then
+  ibus-daemon --daemonize --xim
+  inotifywait -e create ~/.config/ibus/bus
+elif [ "x$1" = "xstop" ] ; then
+  killall ibus-daemon
+fi

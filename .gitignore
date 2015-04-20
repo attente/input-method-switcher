@@ -1,0 +1,12 @@
+CMakeCache.txt
+CMakeFiles
+Makefile
+build
+cmake_install.cmake
+obj-x86_64-linux-gnu
+src/input-method-switcher
+src/qt5/libproxyplatforminputcontextplugin.so
+src/qt5/moc_context.cpp
+src/qt5/moc_plugin.cpp
+src/qt5/plugin_automoc.cpp
+src/xml.h

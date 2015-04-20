@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ "x$1" = "xstart" ] ; then
+  fcitx
+elif [ "x$1" = "xstop" ] ; then
+  killall fcitx
+fi
