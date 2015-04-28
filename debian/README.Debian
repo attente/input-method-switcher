@@ -1,0 +1,8 @@
+input-method-switcher for Debian
+--------------------------------
+
+The debian directory was generated with:
+
+dh_make -p input-method-switcher_0.0.0 -c gpl3 -n -s -y
+
+ -- William Hua <william.hua@canonical.com>  Mon, 27 Apr 2015 06:51:09 -0400

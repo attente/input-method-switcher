@@ -3,6 +3,10 @@ CMakeFiles
 Makefile
 build
 cmake_install.cmake
+debian/files
+debian/input-method-switcher
+debian/input-method-switcher.debhelper.log
+debian/input-method-switcher.substvars
 obj-x86_64-linux-gnu
 src/input-method-switcher
 src/qt5/libproxyplatforminputcontextplugin.so
