@@ -1,5 +1,5 @@
 Source: input-method-switcher
-Section: unknown
+Section: utils
 Priority: optional
 Maintainer: William Hua <william.hua@canonical.com>
 Build-Depends: debhelper (>= 9),
@@ -16,5 +16,6 @@ Homepage: https://github.com/attente/input-method-switcher
 Package: input-method-switcher
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Input method framework switcher
+ It lets you switch input method frameworks without needing to restart your
+ desktop session.
