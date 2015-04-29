@@ -24,7 +24,7 @@
 
 #include "context.h"
 
-/* XXX */
+/* XXX: Hack because QDBusConnection caches connections. */
 #include <QDBusConnection>
 
 namespace ubuntu
@@ -37,7 +37,7 @@ static void properties_changed_cb(GDBusProxy *proxy,
 {
     ProxyPlugin *plugin = static_cast<ProxyPlugin *>(user_data);
 
-    /* XXX */
+    /* XXX: Hack because QDBusConnection caches connections. */
     QDBusConnection::disconnectFromBus("QIBusProxy");
 
     Q_EMIT plugin->frameworkChanged(*plugin);

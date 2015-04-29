@@ -1,6 +1,7 @@
 if [ "x$1" = "xstart" ] ; then
 
-  ibus-daemon --daemonize --xim
+  # XXX: Hack to enable IBus switching shortcut
+  XDG_CURRENT_DESKTOP=unity ibus-daemon --daemonize --xim
   inotifywait -e create ~/.config/ibus/bus
 
 elif [ "x$1" = "xstop" ] ; then
