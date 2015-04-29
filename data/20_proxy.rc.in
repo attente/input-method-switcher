@@ -1,0 +1,9 @@
+case "$IM_CONFIG_PHASE" in
+  1)
+    QT_IM_MODULE=proxy
+    GTK_IM_MODULE=proxy
+    ;;
+  2)
+    input-method-switcher &
+    ;;
+esac
